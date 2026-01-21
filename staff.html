@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Our Dedicated Staff | Rainbow Montessori</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/staff.css">
+        <!-- ==================== Stylesheets ==================== -->
+    <link rel="stylesheet" href="core/navbar.css">
+    <link rel="stylesheet" href="core/footer.css">
+    
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    
+    <!-- Tailwind Configuration -->
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#69d4ec",
+                        "secondary": "#49A440",
+                        "background-light": "#fafaf9",
+                        "background-dark": "#1a2323",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#0e181b] dark:text-[#f8fbfb]">
+        <!-- ====================================================
+         NAVBAR SECTION (Loaded Dynamically)
+         ==================================================== -->
+    <div id="navbar-placeholder"></div>
+
+    <main>
+        <div class="container">
+            <!-- Page Heading -->
+            <div class="page-heading">
+                <div class="section-badge">
+                    <span class="material-symbols-outlined text-sm">school</span>
+                    Our Educators
+                </div>
+                <h1>Meet the heart of our school.</h1>
+                <p class="description">
+                    At Rainbow Montessori, our educators are more than just teachers; they are mentors, observers, and guides committed to fostering a peaceful, child-led learning environment.
+                </p>
+            </div>
+
+            <!-- Filters Section -->
+            <div class="filters-section">
+                <div class="filter-buttons">
+                    <button class="filter-btn active">All Departments</button>
+                    <button class="filter-btn">Administration</button>
+                    <button class="filter-btn">Toddler Teachers</button>
+                    <button class="filter-btn">Primary Teachers</button>
+                </div>
+                <div class="filter-info">
+                    <span class="material-symbols-outlined text-lg">filter_list</span>
+                    <span>Displaying 12 Staff Members</span>
+                </div>
+            </div>
+
+            <!-- Staff Grid -->
+            <div class="staff-grid">
+                <!-- Staff Card 1 -->
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <div class="staff-avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAOBEBPwfH1ANPRE5C1NA1BUOFTCIFzRIicTPMqPPHQDprZAGVxAsh4_hMXdn2lA6MpVPVajry_PZ0UHHlW9Q7UzCfQeYTIJOC98pCaNffkzz_GdD0Vds0TpsStWM3Xd2kvcuENacP_GuxVXwAhd5-3mlZja3MW3_a49lZRrCYe8F-Fp37snCwU6FkqPZje9PzPWu5ow0BaPzaU1KccR2hyccMJbkoWhq0gae7_HIuG4tCOLX7mm0HMpJPMRl9advSA0eTmvKhp2Hcc");'></div>
+                        <div class="verified-badge">
+                            <span class="material-symbols-outlined text-sm block">verified_user</span>
+                        </div>
+                    </div>
+                    <h3>Sarah Jenkins</h3>
+                    <p class="staff-title">Lead Montessori Guide</p>
+                    <p class="staff-description">
+                        Sarah has over 10 years of experience in early childhood education. She is passionate about creating a peaceful, prepared environment for every student.
+                    </p>
+                    <button class="profile-btn">
+                        View Profile <span class="material-symbols-outlined text-lg">arrow_forward</span>
+                    </button>
+                </div>
+
+                <!-- Staff Card 2 -->
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <div class="staff-avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCq-ZhxJulyTEUXvqM-bw8GoujWo9190cbmMyF7_liWW3hZjnznBpOZB9Ff2VEVqWo80iYiqjXhx7rr0IIjM3ShkqF6Uj1-4b_NxaGbXsu9N2veY6lYGwkSAUQjAFqNRTfKUdl_sLZqcdi8RImlFfmi3w-mvbv8DhODSBBVJmxpgIK0zz6pOr9dRjCMpVF5v6it96KU6k2nHsTATh5Kb_wToWnXB0_wp5TL51GIUz3bim7qsLEIWzWpPeaPMNtfII-8G5drw5Y-YxaO");'></div>
+                    </div>
+                    <h3>Michael Chen</h3>
+                    <p class="staff-title">Head of School</p>
+                    <p class="staff-description">
+                        Michael leads our community with a focus on Montessori philosophy and administrative excellence, ensuring a supportive environment for all.
+                    </p>
+                    <button class="profile-btn">
+                        View Profile <span class="material-symbols-outlined text-lg">arrow_forward</span>
+                    </button>
+                </div>
+
+                <!-- Staff Card 3 -->
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <div class="staff-avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDqC_DhfGBfTLw-LADrnKQCxXjCTnKlp6O86V-82JeMiRbLhyTZZnjjOy7l736m50hiAoIkc-2YHgcUfd1ruzOUIRt0NilfONkbfDs4HYNmMNA_EhpwjHYVUJBVfGmVPerIHeV95mVV0-AfvBBNt_p6_wJM9V15ya9AUAXA5_9Q797sTpIU2X5ZUcb5R-Onnk5_atdCm3MS2N2NqFycLzp97zvwrIxvhl69iWWZfO2we0Da9JA9azklxkDLYbXVta8M014n_xplFON7");'></div>
+                    </div>
+                    <h3>Elena Rodriguez</h3>
+                    <p class="staff-title">Primary Teacher</p>
+                    <p class="staff-description">
+                        Elena specializes in the Primary years, helping children develop independence and a love for learning through hands-on exploration.
+                    </p>
+                    <button class="profile-btn">
+                        View Profile <span class="material-symbols-outlined text-lg">arrow_forward</span>
+                    </button>
+                </div>
+
+                <!-- Staff Card 4 -->
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <div class="staff-avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBZNo4Gclrh3sRyo2bl16QoVoWEWifRJlvItU1eIbNPfFNovUZD2PDkaM-Bmgg1FaOTGu6EYeKhSWpu-WDvp3UV3l7GI5TNd9kPDy0KXZR5iLJXh-Phqt_z1BxhbWshP_uxBoRYf2MOYDrtEmBC_huh1Zufdso-JktlkiiBSYlC9zeZXMVxaaagiCpLFtPplVv9Bi_qa9J0CJvovYOPvvJvsPLjHQLmDttylY4upM1Vcm3EuFh_JEQiYElCJlmiJ2K0ANmDm2Tvvquw");'></div>
+                    </div>
+                    <h3>David Thompson</h3>
+                    <p class="staff-title">Toddler Guide</p>
+                    <p class="staff-description">
+                        David creates a warm, sensory-rich environment for our youngest learners, supporting their transition and early sensory development.
+                    </p>
+                    <button class="profile-btn">
+                        View Profile <span class="material-symbols-outlined text-lg">arrow_forward</span>
+                    </button>
+                </div>
+
+                <!-- Staff Card 5 -->
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <div class="staff-avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCTFVEj6SZm5MpghE_ilMnED5A8PXshnv1RDY3kn2bSv7a7MAl1s38N1umv5W1xNRvjjT-kJIJ87fkCZXFl_giWN4uoEQDH9okFmuFqqMMYRyy2ZdFsR8NNXrR5L6mNw2pYsZQTRfrkBHDXa-bCs0prtZ-BfUJThzED_u-77-i8GgZFfZpYrml-fxmGZPSW4k9TmCbQ5NOVylmhzzJyrZj17lQ1ywirLLLGLCeAWfaasgSpIxT-r56x-M5G3kZqKCPkaxj5zkRux2mn");'></div>
+                    </div>
+                    <h3>Amara Okafor</h3>
+                    <p class="staff-title">Enrichment Specialist</p>
+                    <p class="staff-description">
+                        Amara brings music and art into the daily lives of our students, fostering creativity and self-expression across all age groups.
+                    </p>
+                    <button class="profile-btn">
+                        View Profile <span class="material-symbols-outlined text-lg">arrow_forward</span>
+                    </button>
+                </div>
+
+                <!-- Staff Card 6 -->
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <div class="staff-avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB1BqBnAuo0LHGFE_ppv_Cnsr_8CD8fztKOGmMQA_1vPaNtDhfzvMz9LxnFpNSUI7rJpP0kr8xf6wWaa5xpRyqGZJRxtl4AsHBXNwO94UovU9HydoGrtpURJXc7kn6efLeCQAxGFS56K4GpKdUBYNYr7caWh9dIWE3HNjkRxDykcy7Fvk4ZhBDmmRP2tdf27AIS-SbVvnoxP9KkEBI_gTZ87kjlHRGP-Nmt2A5IG7mMs99wFb_w5SUhVvuEsUtpmexYGP6KvGPeyEyZ");'></div>
+                    </div>
+                    <h3>Julianna Smith</h3>
+                    <p class="staff-title">Assistant Teacher</p>
+                    <p class="staff-description">
+                        Julianna supports our lead guides in maintaining the classroom flow and providing individualized attention to every child.
+                    </p>
+                    <button class="profile-btn">
+                        View Profile <span class="material-symbols-outlined text-lg">arrow_forward</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <section class="cta-section">
+                <div class="cta-blur-bg top-right"></div>
+                <div class="cta-blur-bg bottom-left"></div>
+                <div class="cta-content">
+                    <h2>Experience Our Nurturing Environment Firsthand</h2>
+                    <p>
+                        See our dedicated teachers in action and discover how the Montessori method empowers your child's growth.
+                    </p>
+                    <div class="cta-buttons">
+                        <button class="cta-btn primary">
+                            <span class="material-symbols-outlined">calendar_month</span>
+                            Schedule a Tour
+                        </button>
+                        <button class="cta-btn secondary">
+                            <span class="material-symbols-outlined">mail</span>
+                            Contact Us
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- ====================================================
+         FOOTER SECTION (Loaded Dynamically)
+         ==================================================== -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ====================================================
+         SCRIPTS
+         ==================================================== -->
+    <script src="js/components.js"></script>
+
+</body>
+</html>

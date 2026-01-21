@@ -1,0 +1,64 @@
+<!-- Announcement Bar -->
+<div class="announcement-bar">
+  ✨ Admissions for Academic Year 2026 are now open!
+  <a href="#">Learn More</a>
+</div>
+
+<!-- Navbar -->
+<header class="navbar">
+  <div class="navbar-container">
+
+    <!-- Logo -->
+    <div class="navbar-logo">
+      <a href="index.html" class="logo-link">
+        <div class="logo-icon">
+          <img src="/logo.png" alt="Rainbow Montessori Logo" />
+        </div>
+        <p>Rainbow <span>Montessori</span></p>
+      </a>
+    </div>
+
+    <!-- Desktop Nav -->
+    <nav class="navbar-links">
+      <a href="/index.html">Home</a>
+      <a href="#">Our Philosophy</a>
+      <a href="/program.html">Programs</a>
+      <a href="/staff.html">Staff</a>
+      <a href="/admission.html">Admissions</a>
+      <a href="#" class="btn-primary">Apply Now</a>
+    </nav>
+
+    <!-- Mobile Button -->
+    <button class="menu-btn" id="menuBtn">
+      <span class="material-symbols-outlined" id="menuIcon">menu</span>
+    </button>
+
+  </div>
+</header>
+
+<!-- Mobile Menu Overlay -->
+<div class="mobile-menu" id="mobileMenu">
+  <nav class="mobile-nav">
+    <a href="/index.html">Home</a>
+    <a href="#">Our Philosophy</a>
+    <a href="/program.html">Programs</a>
+    <a href="/staff.html">Staff</a>
+    <a href="/admission.html">Admissions</a>
+    <a href="#" class="btn-primary">Apply Now</a>
+  </nav>
+</div>
+<script>
+  const menuBtn = document.getElementById("menuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+  const menuIcon = document.getElementById("menuIcon");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
+
+    if (mobileMenu.classList.contains("active")) {
+      menuIcon.textContent = "close";
+    } else {
+      menuIcon.textContent = "menu";
+    }
+  });
+</script>
